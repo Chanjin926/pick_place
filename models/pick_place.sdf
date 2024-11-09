@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="pick_place">
+    <!-- 기본 물리 엔진과 환경 설정 -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://table1</uri>
+      <static>true</static>
+    </include>
+
+    <!-- Table 2 -->
+    <include>
+      <uri>model://table2</uri>
+      <static>true</static>
+    </include>
+    <!-- Peg -->
+    <include>
+      <uri>model://peg</uri>
+      <static>false</static>
+    </include>
+    <!-- Hole -->
+    <include>
+      <uri>model://hole</uri>
+      <static>true</static>
+    </include>
+  </world>
+</sdf>
