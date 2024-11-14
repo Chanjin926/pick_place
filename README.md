@@ -1,5 +1,5 @@
 # pick_place
-for visionless Peg-In-Hole with Spiral Trajectory
+for visionless Peg-In-Hole with Spiral Trajectory & Implementing objects at Gazebo
 ## Environment Used
 * Ubuntu 18.04
 * ROS Melodic
